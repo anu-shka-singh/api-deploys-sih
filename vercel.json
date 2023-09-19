@@ -9,6 +9,7 @@
     "routes": [
       {
         "src": "/summarize",
+        "methods": ["POST"],
         "dest": "app.py"
       },
       {
