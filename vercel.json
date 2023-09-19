@@ -10,6 +10,10 @@
       {
         "src": "/summarize",
         "dest": "app.py"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "app.py"
       }
     ]
 }
