@@ -4,8 +4,10 @@ import string
 import re
 from nltk.tokenize import RegexpTokenizer
 from sklearn.feature_extraction.text import TfidfVectorizer
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Load the stacking model
 stacking_model = joblib.load('stacking_model.pkl')
