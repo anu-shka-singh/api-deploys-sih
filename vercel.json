@@ -8,12 +8,12 @@
     ],
     "routes": [
       {
-        "src": "/summarize",
-        "methods": ["POST"],
+        "src": "/(.*)",
         "dest": "app.py"
       },
       {
-        "src": "/(.*)",
+        "src": "/predict",
+        "methods": ["POST"],
         "dest": "app.py"
       }
     ]
