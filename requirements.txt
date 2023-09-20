@@ -2,5 +2,5 @@ Flask
 Flask_Cors
 joblib
 nltk
-scikit_learn
+scikit-learn
 Gunicorn
