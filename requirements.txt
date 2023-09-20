@@ -1,7 +1,4 @@
-Flask
-Flask_Cors
-joblib
-nltk
-scikit-learn
-sklearn.utils
-Gunicorn
+Flask==2.3.2
+joblib==1.2.0
+nltk==3.8.1
+scikit_learn==1.2.2
