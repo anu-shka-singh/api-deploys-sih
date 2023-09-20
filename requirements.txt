@@ -3,3 +3,4 @@ Flask_Cors
 joblib
 nltk
 scikit_learn
+Gunicorn
